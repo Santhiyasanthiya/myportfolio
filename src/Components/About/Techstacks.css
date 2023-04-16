@@ -1,64 +1,108 @@
 .main {
-    margin-top: 4em;
-  }
+  margin-top: 4em;
+}
+.techsection {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  background-color: var(--clr-bg);
+  height:80vh;
+ 
+  
+  /* max-height: 400px; */
+}
+
+.techsection > div {
+
+  width: 11%;
+  height: 16vh;
+  max-height: 200px;
+  box-shadow: var(--shadow);
+  z-index: 1;
+  border-radius: 20px;
+  margin: 2.5%;
+  float: left;
+  line-height:5%;
+  font-size:smaller;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+  border: 3px solid var(--clr-primary);
+}
+.techsection > div:hover {
+  background-color: var(--clr-bg);
+  overflow: hidden;
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid var(--clr-primary);
+}
+
+.techsection > div > svg {
+  /* height: 50%;
+  width: 50%; */
+  font-size: 8vh;
+  color: var(--clr-primary);
+}
+.techsection > div > h5 {
+  position: relative;
+  top: 8px;
+  background-color: transparent;
+}
+
+@media (max-width: 1100px) {
   .techsection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap:wrap ;
-    width: 100%;
-    /* text-align: center; */
-    background-color: var(--clr-bg);
-    height: 50vh;
-    /* max-height: 400px; */
+    height: 120vh;
+ 
   }
-  
   .techsection > div {
-    width: 10%;
+    width: 15%;
+    font-size:16px;
+    line-height:5%;
+    margin: 2.0%;
+    height: 20vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .techsection {
+    height: 100vh;
+ 
+  }
+  .techsection > div {
+    width: 20%;
+    line-height:5%;
+    font-size:16px;
+    margin: 0px auto;
+    height: 20vh;
+  }
+}
+
+@media (max-width: 750px) {
+  .techsection {
+    height: 140vh;
+  }
+  .techsection > div {
+    width: 30%;
+    line-height: 5px;
+    font-size: 16px;
+    margin: 0px auto;
+    height: 20vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .techsection {
+    height: 180vh;
+  }
+  .techsection > div {
+    width: 40%;
+    font-size: 16px;
+    margin: 0px auto;
     height: 18vh;
-    max-height: 140px;
-    box-shadow: var(--shadow);
-    z-index: 1;
-    border-radius: 20px;
-    margin: 2.5%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease 0s;
-    border: 2px solid var(--clr-primary);
   }
-  .techsection > div:hover {
-    background-color: var(--clr-bg);
-    overflow: hidden;
-    transform: scale(1.08);
-    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    border: 1px solid var(--clr-primary);
-  }
-  
-  .techsection > div > svg {
-    /* height: 50%;
-    width: 50%; */
-    font-size: 8vh;
-    color: var(--clr-primary);
-  }
-  .techsection > div > h5 {
-    position: relative;
-    top: 8px;
-    background-color: transparent;
-  }
-  
-  @media (max-width: 600px) {
-    .techsection {
-      height: 120vh;
-    }
-    .techsection > div {
-      width: 40%;
-      margin-right: 5%;
-      margin-bottom: 2%;
-      height: 18vh;
-    }
-  }
-  
+}

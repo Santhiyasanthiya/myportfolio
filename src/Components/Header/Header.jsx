@@ -13,12 +13,12 @@ export const Header = () => {
     <>
       <header className={"header center " + themename}>
         <h3>
-          <ListItemButton href="#home" >
+          <a href="#home" >
             <span>
               <img src={logo} data-aos="fade-right" className="santhiya-logo"/>
             </span>
            
-          </ListItemButton>
+          </a>
         </h3>
         <Navbar />
       </header>

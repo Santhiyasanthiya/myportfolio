@@ -85,7 +85,7 @@ export const About = () => {
             autoplay
             loop
             src="https://assets10.lottiefiles.com/packages/lf20_BROxHtztMy.json"
-            style={{ height: '500px', width: '450px' }}
+      
           >
           </Player>
         </div>

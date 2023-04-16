@@ -15,6 +15,7 @@ import {
   SiMongodb,
   SiNodedotjs,
 } from "react-icons/si";
+import ListItemButton from '@mui/material/ListItemButton';
 import { BsBootstrap } from "react-icons/bs";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -22,6 +23,9 @@ import { IoLogoJavascript } from "react-icons/io";
 import BookMyShow from "../../assets/BookMyShow.jpg";
 import diary from "../../assets/diary.png";
 import money from "../../assets/money.png";
+
+
+
 export const Projects = () => {
   return (
     <>
@@ -42,15 +46,17 @@ export const Projects = () => {
                   reservations for the cinema in a particular theatre via the
                   online source.
                 </p>
-                <div>
-                  <FaReact />
-                  <BsBootstrap />
-                  <SiMongodb />
-                  <SiNodedotjs />
-                  <SiExpress />
+                <div style={{margin:"0px"}}>
+                <FaReact color="#5bc0de" />
+                  <BsBootstrap color="#59287a" />
+                  <SiMongodb color="4DB33D" />
+                  <SiNodedotjs color="#3c873a" />
+                  <SiExpress color="68A063"/>
                 </div>
                 <div>
-                  <a
+
+                <a style={{textDecoration:"none"}}
+
                     href="https://github.com/Santhiyasanthiya/guvi-hackathon2-frontend"
                     target="_blank"
                     rel="noreferrer"
@@ -58,8 +64,10 @@ export const Projects = () => {
                     <span type="button" className="btns onbt onbt">
                       FrontEnd
                     </span>
-                  </a>
-                  <a
+                   </a>
+
+
+                  <a style={{textDecoration:"none"}}
                     href="https://github.com/Santhiyasanthiya/guvi-hackathon2-backend"
                     target="_blank"
                     rel="noreferrer"
@@ -68,7 +76,9 @@ export const Projects = () => {
                       BackEnd
                     </span>
                   </a>
-                  <a
+
+
+                  <a style={{textDecoration:"none"}}
                     href="https://guvi-hackathon-frontend.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -81,6 +91,7 @@ export const Projects = () => {
                       Live
                     </span>
                   </a>
+
                 </div>
               </div>
             </div>
@@ -90,7 +101,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    style={{ width: "390px", height: "220px" }}
+               
                     src={diary}
                     alt="Diary manager app"
                   />
@@ -101,15 +112,15 @@ export const Projects = () => {
                 <p>
                   Diary management entails scheduling and documenting each and every forthcoming meeting in a precise and timely manner.
                 </p>
-                <div>
-                  <FaReact />
-                  <BsBootstrap />
-                  <SiMongodb />
-                  <SiNodedotjs />
-                  <SiExpress />
+                <div style={{margin:"0px"}}>
+                <FaReact color="#5bc0de" />
+                  <BsBootstrap color="#59287a" />
+                  <SiMongodb color="4DB33D" />
+                  <SiNodedotjs color="#3c873a" />
+                  <SiExpress color="68A063"/>
                 </div>
                 <div>
-                  <a
+                  <a style={{textDecoration:"none"}}
                     href="https://github.com/Santhiyasanthiya/Diary-Manager-frontend"
                     target="_blank"
                     rel="noreferrer"
@@ -118,7 +129,9 @@ export const Projects = () => {
                       FrontEnd
                     </span>
                   </a>
-                  <a
+
+
+                  <a style={{textDecoration:"none"}}
                     href="https://github.com/Santhiyasanthiya/Diary-Manager-Backend"
                     target="_blank"
                     rel="noreferrer"
@@ -127,7 +140,8 @@ export const Projects = () => {
                       BackEnd
                     </span>
                   </a>
-                  <a
+
+                  <a style={{textDecoration:"none"}}
                     href="https://diary-manager-frontend.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -136,6 +150,7 @@ export const Projects = () => {
                       Live
                     </span>
                   </a>
+
                 </div>
               </div>
             </div>
@@ -144,7 +159,7 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src={money} alt="Book MyShow Clone" />
+                  <img src={money} alt="Money Manager" />
                 </div>
               </div>
               <div className="project_information">
@@ -154,15 +169,16 @@ export const Projects = () => {
                 for managing personal finances as easy as pie! 
 .
                 </p>
-                <div>
-                  <FaReact />
-                  <BsBootstrap />
-                  <SiMongodb />
-                  <SiNodedotjs />
-                  <SiExpress />
+                <div style={{margin:"0px"}}>
+                <FaReact color="#5bc0de" />
+                  <BsBootstrap color="#59287a" />
+                  <SiMongodb color="4DB33D" />
+                  <SiNodedotjs color="#3c873a" />
+                  <SiExpress color="68A063"/>
                 </div>
-                <div>
-                  <a
+
+                <div style={{margin:"0px"}}>
+                  <a style={{textDecoration:"none"}} 
                     href="https://github.com/Santhiyasanthiya/money-manager-frontend"
                     target="_blank"
                     rel="noreferrer"
@@ -171,7 +187,8 @@ export const Projects = () => {
                       FrontEnd
                     </span>
                   </a>
-                  <a
+
+                  <a style={{textDecoration:"none"}}
                     href="https://github.com/Santhiyasanthiya/money-manager-backend"
                     target="_blank"
                     rel="noreferrer"
@@ -180,7 +197,8 @@ export const Projects = () => {
                       BackEnd
                     </span>
                   </a>
-                  <a
+
+                  <a style={{textDecoration:"none"}}
                     href="https://playful-kelpie-719896.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -193,6 +211,7 @@ export const Projects = () => {
                       Live
                     </span>
                   </a>
+
                 </div>
               </div>
             </div>

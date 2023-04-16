@@ -4,6 +4,9 @@
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  max-width: 100%;
+  /* min-height: 100vh; */
+  margin: 0 auto;
 }
 
 .light {
@@ -25,6 +28,7 @@
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+
 main {
   max-width: 1100px;
   width: 95%;
@@ -44,6 +48,7 @@ main {
 .center {
   display: flex;
   align-items: center;
+  /* margin-left:150px; */
 }
 
 .link {
@@ -69,7 +74,7 @@ main {
 
 .link:hover::before,
 .link:focus::before {
-  width: 70%;
+  width: 75%;
 }
 
 .link--nav {

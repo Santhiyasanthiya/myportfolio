@@ -25,12 +25,13 @@ export const Introduction = () => {
               <h4>
               I seek to work in a competitive field and ready to accept the
                 <span className="different"> challenges, utilizing my skills </span> would like to work with a 
-                <span className="different"> highly esteemed company
+                <span className="different"> 
+                {""} highly esteemed company
                 </span>
-                which gives me a platform to use my expertise and
+                {""} which gives me a platform to use my expertise and
               skills for mutual growth and
                 <span className="different">
-                benefit of company and myself.
+                {""} benefit of company and myself.
                 </span>
               </h4>
 

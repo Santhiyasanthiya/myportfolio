@@ -12,11 +12,11 @@ import {
 
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
+import { SiJavascript, SiPostman } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
 import {GrMysql} from "react-icons/gr"
-import postman from"./Postman.gif";
+
 
 
 export const Techstacks = () => {
@@ -77,7 +77,7 @@ export const Techstacks = () => {
           </div>
 
           <div>
-            <img src={postman} style={{width:"50px"}} alt="Postman" />
+          <SiPostman color="EF5B25" />
             <h5>Postman</h5>
           </div>
 
