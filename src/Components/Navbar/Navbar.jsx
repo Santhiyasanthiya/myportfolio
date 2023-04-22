@@ -83,7 +83,7 @@ export const Navbar = () => {
 
           <li disablePadding className="nav__list-item">
             <a style={{textDecoration:"none"}}
-              href="https://drive.google.com/file/d/17VcNq7FfabBae0gNsllZ6Tq5F_cTqS2v/view?usp=sharing"
+              href="https://drive.google.com/file/d/1taaLGPVJQOa7AMR2HjunB_htFQO0vvGQ/view?usp=sharing"
               onClick={toggleNavList}
               className="link link--nav"
               target="_blank"
