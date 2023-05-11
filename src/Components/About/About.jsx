@@ -15,7 +15,7 @@ export const About = () => {
   return (
     <>
       <div className="about-animate">
-        <div className="about center">
+        <div className="about_center">
 
           <div className="home">
             <h4 data-aos="fade-right" className="mobileHead">
@@ -28,7 +28,7 @@ export const About = () => {
             </p>
           </div>
 
-          <div className="about__contact center" style={{ marginRight: "250px", marginLeft:"150px" }}>
+          <div className="about__contact center">
             <a
               href="https://github.com/Santhiyasanthiya"
               aria-label="github"

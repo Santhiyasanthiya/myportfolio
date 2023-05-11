@@ -231,13 +231,7 @@ export const Projects = () => {
                 <p>
                Bulb create HTML, CSS, JavaScript
                 </p>
-                <div style={{margin:"0px"}}>
-                <FaReact color="#5bc0de" />
-                  <BsBootstrap color="#59287a" />
-                  <SiMongodb color="4DB33D" />
-                  <SiNodedotjs color="#3c873a" />
-                  <SiExpress color="68A063"/>
-                </div>
+              
 
                 <div style={{margin:"0px"}}>
                   <a style={{textDecoration:"none"}} 
