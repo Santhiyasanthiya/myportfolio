@@ -21,7 +21,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="https://www.linkedin.com/in/santhiya-santhiya-4a8783242/"
+              href="https://www.linkedin.com/in/santhiya-k-4a8783242/"
               target="_blank"
               rel="noreferrer"
             >

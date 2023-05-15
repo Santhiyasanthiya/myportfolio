@@ -17,15 +17,13 @@
 
 .home > :nth-child(2){
   font-size: 20px;
-  max-width: 70%;
+  max-width: 100%;
   margin-right: 0%;
 }
 
 .about__desc {
   font-size: 1rem;
-  max-width: 70%;
-  
-
+  max-width: 100%;
 }
 
 .about__desc,
@@ -33,7 +31,10 @@
   margin-top: 2.4em;
   
 }
-
+.about__contact{
+  display: flex;
+ gap: 20px;
+}
 .about .link--icon {
   margin-right: 1.8em;
 }
@@ -99,23 +100,6 @@ margin:0px; */
  
 
 }
-
-
-/* @media (min-width : 800px){
-.about-animate{
-  grid-template-columns: 1fr 1fr;
-}
-} */
-
-/* @media (min-width : 500px){
-.about-animate{
-  grid-template-columns: 1fr;
-}
-} */
-
-/* .about-animate{
-display: flex;
-} */
 
 
 @media (max-width: 600px) {

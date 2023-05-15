@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+
 .app {
   font-family: "Poppins", sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
   max-width: 100%;
   /* min-height: 100vh; */
   margin: 0 auto;
 }
+
 
 .light {
   --clr-bg: #fcfcfc;
@@ -17,6 +20,7 @@
   --clr-primary: #2978b5;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 
 .dark {
   --clr-bg: #23283e;
@@ -48,7 +52,7 @@ main {
 .center {
   display: flex;
   align-items: center;
-  /* margin-left:150px; */
+       /* margin-left:150px; */
 }
 
 .link {
