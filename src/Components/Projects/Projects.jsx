@@ -2,29 +2,15 @@ import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
-  SiBlockchaindotcom,
-  SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
   SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
   SiMongodb,
   SiNodedotjs,
 } from "react-icons/si";
-import ListItemButton from '@mui/material/ListItemButton';
 import { BsBootstrap } from "react-icons/bs";
-import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
 import BookMyShow from "../../assets/BookMyShow.jpg";
 import diary from "../../assets/diary.png";
 import money from "../../assets/money.png";
-import bulb from "../../assets/bulb.png"
-
+import email from "../../assets/email.png"
 
 
 export const Projects = () => {
@@ -223,19 +209,20 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img  style={{margin:"0px"}}  src={bulb} alt="Money Manager" />
+                  <img  style={{margin:"0px"}}  src={email} alt="Money Manager" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Bulb Clone</h2>
+                <h2>Email Project</h2>
                 <p>
-               Bulb create HTML, CSS, JavaScript
+                  Create Email Project 
+              ReactJs, Bootstrap, MongoDB, NodeJS, Express,
                 </p>
               
 
                 <div style={{margin:"0px"}}>
                   <a style={{textDecoration:"none"}} 
-                    href="https://github.com/Santhiyasanthiya/bulbclone"
+                    href="https://github.com/Santhiyasanthiya/email_project.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -243,10 +230,19 @@ export const Projects = () => {
                       FrontEnd
                     </span>
                   </a>
-
                  
                   <a style={{textDecoration:"none"}}
-                    href="https://bulbclone.vercel.app/"
+                    href="https://github.com/Santhiyasanthiya/email-project_backend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      BackEnd
+                    </span>
+                  </a>
+
+                  <a style={{textDecoration:"none"}}
+                    href="https://email-project.vercel.app/emails/inbox"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -263,7 +259,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-{/* //-------------------------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------------------ */} vfdc
         </div>
       </div>
     </>
